@@ -1,0 +1,15 @@
+mireia_homepage:
+    path:     /
+    defaults: { _controller: MireiaBundle:Default:index }
+mireia_hello:
+    path:     /hello
+    defaults: { _controller: MireiaBundle:Default:hello }
+mireia_adeu:
+    path:     /adeu
+    defaults: { _controller: MireiaBundle:Mireia:adeu }
+mireia_adeu2:
+    path:     /adeu2/{variable1}
+    defaults: { _controller: MireiaBundle:Mireia:adeu2 }
+mireia_prova:
+    path:     /prova
+    defaults: { _controller: MireiaBundle:Mireia:prova }

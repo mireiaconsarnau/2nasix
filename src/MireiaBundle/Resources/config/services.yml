@@ -1,0 +1,4 @@
+services:
+#    mireia.example:
+#        class: MireiaBundle\Example
+#        arguments: [@service_id, "plain_value", %parameter%]
